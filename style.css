@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+}
+
+#social{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    text-align: right;
+    font-size: 20px;
+    padding: 15px;
+
+}
+#name{
+    float: left;
+    letter-spacing: 2px;
+}
+
+#social>i{
+    margin-right: 15px;
+}
+
+#social>i:hover{
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#headerresim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+    margin-top: 15px;
+    overflow: auto;
+}
+
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+
+nav li a:hover{
+    color: white;
+    background-color: #adadad;
+}
