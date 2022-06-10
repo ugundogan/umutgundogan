@@ -285,3 +285,117 @@ h2{
     font-size: 16px;
     
 }
+
+
+#right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+.slider {
+    font: 19px sans-serif;
+    margin: 0px auto;
+    position: relative;
+    width: 600px;
+    height: 380px;
+    overflow: hidden;
+
+    border-radius: 10px;
+    box-shadow: 0 0 25px #4b4c4c;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.slider img {
+
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    transition: all .6s;
+
+}
+
+#img1 {
+    opacity: 1;
+}
+
+#img2 {
+    opacity: 0;
+}
+
+#img3 {
+    opacity: 0;
+}
+
+#img4 {
+    opacity: 0;
+}
+
+#img5 {
+    opacity: 0;
+}
+
+#asd {
+    cursor: pointer;
+    position: absolute;
+    color: #7e7e7e;
+    top: 50%;
+    transform: scale(2.6);
+    transition: .4s;
+    z-index: 1;
+}
+
+#asd:hover {
+    color: darkgray;
+}
+
+.fa-chevron-left {
+    left: 30px;
+}
+
+.fa-chevron-right {
+    right: 30px;
+}
+
+.circle {
+
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    z-index: 1;
+    transition: .4s;
+}
+
+#circle1 {
+    left: 46%;
+    background-color: white;
+
+}
+
+#circle2 {
+    left: 50%;
+}
+
+#circle3 {
+    left: 54%;
+}
+
+#circle4 {
+    left: 58%;
+}
+
+#circle5 {
+    left: 62%;
+}
